@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.recent__container {
+    background-color: #F9FAFC;
+}
+
+.recent__top {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.recent__first {
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
+.recent__second {
+    margin-right: 11px;
+    margin-top: 8px;
+}
+
+.recent__third {
+    padding-top: 16px;
+    padding-bottom: 5px;
+}
+
+.recent__holder {
+    height: 710px;
+    width: 428px;
+    margin-top: 70px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.recent-activity__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .recent__p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #9DA8B6;
+    padding-top: 5px;
+  }
+  
+  .recent-activity__time {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    /*width: 152px;
+    height: 24px;
+    background: #F9FAFC;
+    border-radius: 8px;*/
+  }
+
+  .recent__date {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #9DA8B6;
+  }
+  
+  .download-icon {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+  }
+  
+  .data-container {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 10px;
+    row-gap: 30px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .data-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .data-item--description {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+  
+  .data-item--icon {
+    height: 46px;
+    width: 46px;
+    border-radius: 8px;
+    background-color: #FEA202;
+    display: flex;
+    padding: 11px;
+  }
+
+  .data-item--nike {
+      height: 46px;
+      width: 46px;
+      border-radius: 8px;
+      background-color: #1D1E2C;
+      display: flex;
+    padding: 11px;
+  }
+
+  .data-item--starbucks {
+    height: 46px;
+    width: 46px;
+    border-radius: 8px;
+    background-color: #006156;
+    display: flex;
+    padding: 11px;
+}
+
+.data-item--netflix {
+    height: 46px;
+    width: 46px;
+    border-radius: 8px;
+    background-color: #CC4945;
+    display: flex;
+    padding: 11px;
+}
+
+.data-item--apple {
+    height: 46px;
+    width: 46px;
+    border-radius: 8px;
+    background-color: #EFF2F7;
+    display: flex;
+    padding: 11px;
+}
+
+.data-item--blue {
+    height: 46px;
+    width: 46px;
+    border-radius: 8px;
+    background-color: #2A69AF;
+    display: flex;
+    padding: 11px;
+}
+
+  
+  .data-item--name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #575A65;
+  }
+
+  .recent__span {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #9DA8B6;
+  }
+
+  .recent__digits {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #9DA8B6;
+  }
+  .data__nike {
+      padding-top: 9px;
+      padding-bottom: 5px;
+  }
+
+  .data__netflix {
+      padding-left: 5px;
+  }
+
+  .data__apple {
+      padding-left: 2px;
+  }
+  
+

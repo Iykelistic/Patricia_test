@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.virtualcard__component {
+    position: relative;
+}
+
+.virtualcard__details .virtualcard__icon {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    padding-top: 20px;
+}
+
+ .paragraph {
+    position: absolute;
+    top: 32%;
+    left: 12%;
+    padding-top: 20px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #444854;
+}
+
+.paragraph span {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #9DA8B6;
+}
+
+.virtualcard__img {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    padding-top: 20px;
+}
+
+.virtualcard__yellow {
+    position: relative;
+    padding-top: 54px;
+    left: 70%;
+}
+
+.virtualcard__blur {
+    position: absolute;
+    top: 36%;
+    left: 47%;
+}
+
+.virtualcard__button button{
+    width: 9vw;
+    height: 6vh;
+    border-radius: 10px;
+}
+
+.virtualcard__button .freeze {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #006156;
+    border: 1px solid #006156;
+    background-color: #FFFFFF;
+    margin-left: 45px;
+}
+
+.virtualcard__button .delete {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #CC4945;
+    border: 1px solid #CC4945;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+}

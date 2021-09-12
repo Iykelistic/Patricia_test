@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #F9FAFC;
+    width: 50vw;
+    height: 286px;
+    border-radius: 24px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    position: relative;
+}
+  
+  .card__details {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    padding-left: 15px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #9DA8B6;
+  }
+
+  .card__digit {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 18px;
+    color: #006156;
+  }
+
+  .card__name {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;  
+    color: #575A65;
+    
+  }
+  
+  .card__fund {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 40px;
+    width: 118px;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid #006156;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+
+  .card__img {
+      position: absolute;
+      top: 63%;
+      left: 63%;
+  }
+  
+
