@@ -46,6 +46,7 @@
     position: relative;
     padding-top: 54px;
     left: 70%;
+    cursor: pointer;
 }
 
 .virtualcard__blur {
@@ -71,6 +72,7 @@
     border: 1px solid #006156;
     background-color: #FFFFFF;
     margin-left: 45px;
+    cursor: pointer;
 }
 
 .virtualcard__button .delete {
@@ -84,4 +86,5 @@
     border: 1px solid #CC4945;
     background-color: #FFFFFF;
     margin-left: 20px;
+    cursor: pointer;
 }
